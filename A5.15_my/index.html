@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+    <title>А5.15</title>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-1">      
+          <img style="width: 40px; padding-top: 5px" src="images/chiken.png" alt="">
+        </div>
+        <div class="col-8">
+          <h1 style="padding-bottom: 10px; padding-left: 150px; background: linear-gradient(to top, #a31223, #fcba03); letter-spacing: 10px; font-style: italic; border-radius: 10px;">Курочка Ряба</h1>
+        </div>
+
+        <div class="col-1">      
+          <img style="width: 30px; padding-top: 10px;" src="images/egg.png" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <form id="messages">
+            <div class="form-group">
+              <label for="var1">var1</label>
+              <input type="text" class="form-control" name="var1" placeholder="Старик" value="Старик">
+            </div>
+          </form>
+
+          <form id="messages">
+            <div class="form-group">
+              <label for="var2">var2</label>
+              <input type="text" class="form-control" name="var2" placeholder="Старуха" value="Старуха">
+            </div>
+          </form>
+
+          <form id="messages">
+            <div class="form-group">
+              <label for="var3">var3</label>
+              <input type="text" class="form-control" name="var3" placeholder="Курочка Ряба" value="Курочка Ряба">
+            </div>
+          </form>
+
+          <form id="messages">
+            <div class="form-group">
+              <label for="var4">var4</label>
+              <input type="text" class="form-control" name="var4" placeholder="яичко" value="яичко">
+            </div>
+          </form>
+
+          <form id="messages">
+            <div class="form-group">
+              <label for="var5">var5</label>
+              <input type="text" class="form-control" name="var5" placeholder="мышь" value="мышь">
+            </div>
+          </form>
+
+          <form id="messages">
+            <div class="form-group">
+              <label for="var6">var6</label>
+              <input type="text" class="form-control" name="var6" placeholder="хвостиком" value="хвостиком">
+            </div>
+          </form>
+
+          <form id="messages">
+            <div class="form-group">
+              <label for="var1">speach</label>
+              <input type="text" class="form-control" name="speach" placeholder="не плачьте, я еще снесу вам яиц" value="не плачьте, я еще снесу вам яиц">
+            </div>
+          </form>
+
+          <div class="row">
+            <a id="button-fetch" aria-label="Можно менять слова в полях для ввода" data-balloon-pos="right" class="btn btn-primary">Создать</a>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="row">
+            <div id="result"></div>
+          </div>
+      </div>
+    </div>
+
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/ryaba.js"></script>
+  </body>
+</html>
